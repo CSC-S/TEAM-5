@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap');
+* {
+  font-family: "Noto Sans Korean", sans-serif;
+}
+
 @font-face {
   font-family: "BM";
-  src: url("./fonts/BMHANNA_11yrs_ttf.ttf");
+  src: url("./fonts/BMHANNA_11yrs.ttf");
+}
+
+@font-face {
+  font-family: "Pre";
+  src: url("./fonts/PretendardVariable.ttf");
 }
 
 .App {
   text-align: center;
-  font-family: "BM";
+  font-family: "Noto Sans Korean";
 }
 
 .App-logo {
@@ -20,8 +30,7 @@
 }
 
 .background {
-  background-image: url('./img/tennis_back.jpg');
-  background-size: cover;
+  background-size: auto;
   color: white;
 }
 
@@ -47,4 +56,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.notice{
+  float: left;
+  margin-left: 200px;
+}
+
+a { 
+  color: #000;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.Header{
+  position: sticky;
+  top: 0%;
+  z-index: 10000;
+}
+
+#footer{
+  background-color: #262626;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#footer a{
+  color: rgba(255, 255, 255, 0.4);
+}
+#footer a:hover{
+  color: #fff;
+}
+
+.footer-social-icons{
+  text-align: right;
+}
+
+.footer-social-icons a{
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.footer-social-icons span{
+  margin-right: 10px;
 }
