@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap"
 import LoginModal from "./LoginModal";
@@ -8,6 +9,17 @@ import ".././App.css";
 
 class Header extends Component  {
 
+=======
+/*eslint-disable*/
+
+import React, { Component } from "react";
+import { Container, Nav, Navbar } from "react-bootstrap"
+import { Route, Link } from "react-router-dom";
+import ".././App.css";
+import Store from "../pages/Store";
+
+class Header extends Component {
+>>>>>>> f2cc67981a3496b367f7219e05750df1c9c6517a
   render() {
     return (
       <div className="Header">
@@ -22,17 +34,26 @@ class Header extends Component  {
               <Nav.Link href="/review">REVIEW</Nav.Link>
             </Nav>
             <Nav className="you-auto">
+<<<<<<< HEAD
               <Nav.Link><SignModal/></Nav.Link>
               <Nav.Link><Social /></Nav.Link>
               <Nav.Link><LoginModal/></Nav.Link>
               
+=======
+              <Nav.Link href="/sign">SIGN</Nav.Link>
+              <Nav.Link href="/login">LOGIN</Nav.Link>
+>>>>>>> f2cc67981a3496b367f7219e05750df1c9c6517a
             </Nav>
           </Container>
         </Navbar>
       </div>
     );
   }
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> f2cc67981a3496b367f7219e05750df1c9c6517a
 
 export default Header;
 

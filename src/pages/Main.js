@@ -11,7 +11,10 @@ const Main = () => {
         <div>
             <Header></Header>
             <Content></Content>
+<<<<<<< HEAD
             <br></br>
+=======
+>>>>>>> f2cc67981a3496b367f7219e05750df1c9c6517a
             <Competition></Competition>
             <Review></Review>
             <Footer></Footer>
