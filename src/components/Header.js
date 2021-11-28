@@ -1,23 +1,11 @@
 import React, { Component } from "react";
-import { Container, Nav, Navbar, Form, Button } from "react-bootstrap"
-import { Route, Link } from "react-router-dom";
-import Modal from 'react-awesome-modal';
+import { Container, Nav, Navbar } from "react-bootstrap"
+import LoginModal from "./LoginModal";
+import SignModal from "./SignModal";
 import ".././App.css";
-import Store from "../pages/Store";
 
-class Header extends Component {
 
-  constructor(){
-    super();
-    this.state = {
-      isLoginOrSignupModalOn: false,
-    };
-    const handleLoginOrSignupModal = () => {
-      this.setState({
-        isLoginOrSignupModalOn: !this.state.isLoginOrSignupModalOn,
-      });
-    };
-  }
+class Header extends Component  {
 
   render() {
     return (
@@ -33,15 +21,16 @@ class Header extends Component {
               <Nav.Link href="/review">REVIEW</Nav.Link>
             </Nav>
             <Nav className="you-auto">
-              <Nav.Link className="signup" onClick={handleLoginOrSignupModal}>SIGN</Nav.Link>
-              <Nav.Link className="login" onClick={handleLoginOrSignupModal}>LOGIN</Nav.Link>
+              <Nav.Link><SignModal/></Nav.Link>
+              <Nav.Link><LoginModal/></Nav.Link>
+              
             </Nav>
           </Container>
         </Navbar>
       </div>
     );
   }
-}
+  }
 
 export default Header;
 

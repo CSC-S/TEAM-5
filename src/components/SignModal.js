@@ -14,7 +14,7 @@ function MyVerticallyCenteredModal(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    LOGIN
+                    SIGN
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -47,13 +47,13 @@ function MyVerticallyCenteredModal(props) {
     );
 }
 
-const LoginModal = () => {
+const SignModal = () => {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <>
             <Button variant="light" onClick={() => setModalShow(true)}>
-                LOGIN
+                SIGN
             </Button>
 
             <MyVerticallyCenteredModal
@@ -64,4 +64,4 @@ const LoginModal = () => {
     );
 }
 
-export default LoginModal;
+export default SignModal;
