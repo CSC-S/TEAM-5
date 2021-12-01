@@ -42,4 +42,46 @@ export default [
         content : "100sq/265g/16x19",
         price : "180,000원"
     },
+
+    {
+        id : 6,
+        title : "윌슨 2021 페더러 팀 슬링백",
+        content : "화이트/골드",
+        price : "45,000원"
+    },
+
+    {
+        id : 7,
+        title : "휠라 FT3BPD4002X 슬링백",
+        content : "화이트/네이비",
+        price : "39,000원"
+    },
+
+    {
+        id : 8,
+        title : "윌슨 2021 슈퍼 투어 15PK 블레이드",
+        content : "그린/블랙",
+        price : "165,000원"
+    },
+
+    {
+        id : 9,
+        title : "아디다스 F36718",
+        content : "코트스매쉬 테니스화",
+        price : "40,230원"
+    },
+
+    {
+        id : 10,
+        title : "아디다스 FX7473",
+        content : "코트 컨트롤 테니스화",
+        price : "41,760원"
+    },
+
+    {
+        id : 11,
+        title : "나이키 DC3432-001",
+        content : "2021 테니스화 베이퍼 라이트",
+        price : "86,420원"
+    }
 ]

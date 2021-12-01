@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap");
 * {
   font-family: "Noto Sans Korean", sans-serif;
 }
@@ -21,6 +21,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.snslogo {
+  display: left;
+  width: 30px;
+  height: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -58,12 +64,12 @@
   }
 }
 
-.notice{
+.notice {
   float: left;
   margin-left: 200px;
 }
 
-a { 
+a {
   color: #000;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -72,35 +78,35 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-.Header{
+.Header {
   position: sticky;
   top: 0%;
   z-index: 10000;
 }
 
-#footer{
+#footer {
   background-color: #262626;
   padding-top: 40px;
   padding-bottom: 40px;
   color: rgba(255, 255, 255, 0.4);
 }
 
-#footer a{
+#footer a {
   color: rgba(255, 255, 255, 0.4);
 }
-#footer a:hover{
+#footer a:hover {
   color: #fff;
 }
 
-.footer-social-icons{
+.footer-social-icons {
   text-align: right;
 }
 
-.footer-social-icons a{
+.footer-social-icons a {
   margin: 0 5px;
   font-size: 16px;
 }
 
-.footer-social-icons span{
+.footer-social-icons span {
   margin-right: 10px;
 }

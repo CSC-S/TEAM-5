@@ -42,6 +42,7 @@ function Section(props){
           <Button variant="primary">구매하러가기</Button>
         </Card.Body>
       </Card>
+      <br />
     </div>
   );
 }
